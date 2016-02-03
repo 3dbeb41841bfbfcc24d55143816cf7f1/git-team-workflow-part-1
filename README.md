@@ -60,7 +60,7 @@ In the diagram above, alongside `master` there's another reference called `HEAD`
 
 ![Branching, Part 2](https://i.imgur.com/XeGw114.png)
 
-In addition to specifying where new branches go, if HEAD is pointing at the end of a branch, it also means that new commits will be added to that branch. If we want to start adding commits to our new `structure` branch instead of our `master` branch, we have to move `HEAD`; this is done using the command `git checkout`. In particular, we want to checkout the `structure` branch, so we would run `git checkout structure`.  Also, we could have created the `structure branch` and switched the head to that branch all in one command with `git checkout -b struture`.
+In addition to specifying where new branches go, if HEAD is pointing at the end of a branch, it also means that new commits will be added to that branch. If we want to start adding commits to our new `structure` branch instead of our `master` branch, we have to move `HEAD`; this is done using the command `git checkout`. In particular, we want to checkout the `structure` branch, so we would run `git checkout structure`.  Also, we could have created the `structure branch` and switched the head to that branch all in one command with `git checkout -b structure`.
 
 ![Branching, Part 3](https://i.imgur.com/PblGpkm.png)
 
